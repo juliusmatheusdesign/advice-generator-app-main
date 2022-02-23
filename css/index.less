@@ -1,0 +1,133 @@
+@color-light-cyan: hsl(196, 37%, 86%); // Light Cyan 
+@color-neon-green: hsl(151, 99%, 66%); // Neon Green
+@color-grayish-blue: hsl(218, 20%, 24%); // Grayish Blue
+@color-dark-grayish-blue: hsl(220, 22%, 16%); // Dark Grayish Blue
+@font-quote: 28px; // Size font
+@font-weight: 800; // Weight font
+@font-family: 'Manrope', sans-serif; // Family font quote
+
+
+// MEDIA
+@media screen and (max-width: 1024px) {
+    #box {
+        width: 50%!important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bars {
+        display: none!important;
+    }
+    .bars-mobile {
+        display: block!important;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    #box {
+        width: 94%!important;
+    }
+    #dice {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 2560px) {
+    .bars {
+        display: block;
+    }
+    .bars-mobile {
+        display: none;
+    }
+}
+
+// CSS resets
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// CSS Global
+
+body {
+    background-color: @color-dark-grayish-blue;
+    font-family: @font-family;
+}
+
+h1 {
+    color: @color-neon-green;
+    font-size: 12px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+p {
+    color: @color-light-cyan;
+    font-weight: 700;
+    font-size: @font-quote;
+}
+
+// Container
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    #box {
+        text-align: center;
+        background-color: @color-grayish-blue;
+        width: 25%;
+        padding: 50px 30px 50px 30px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .bars {
+        padding: 30px 0px 20px 0px;
+        overflow: hidden;
+    }
+
+    #dice {
+        background-color: @color-neon-green;
+        border-radius: 50%;
+        padding: 15px;
+        display: flex;
+        margin-top: -25px;
+        cursor: pointer;
+    }
+    
+    #dice img {
+        width: 23px;
+    }
+
+    #dice:hover {
+        box-shadow: 0 0 20px 0px @color-neon-green;
+        transition: 0.9s;
+    }
+    .bars-mobile img {
+        max-width: 100%;
+    }
+    .bars img {
+        max-width: 100%;
+    }
+    .bars-mobile {
+        display: none;
+    }
+}
+
+
+// Credits
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
