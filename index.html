@@ -7,32 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet/less" type="text/css" href="../css/index.less" />
     <link rel="shortcut icon" href="../assets/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Advice generator app</title>
 </head>
 
 <body>
-    <header>
-        <div id="container">
-            <div class="box">
-                <h1>ADVICE #</h1>
-                <p>"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
-                <div class="bars">
-                    <img src="../assets/img/pattern-divider-desktop.svg" alt="Divider" srcset="">
+    <main>
+        <article>
+            <div id="container">
+                <div id="box">
+                    <h1 id="slip_id">Advice #</h1>
+                    <p id="quote"></p>
+                    <div class="bars">
+                        <img src="../assets/img/pattern-divider-desktop.svg" alt="Divider" srcset="">
+                    </div>
+                    <div class="bars-mobile">
+                        <img src="../assets/img/pattern-divider-mobile.svg" alt="Divider Mobile" srcset="">
+                    </div>
                 </div>
-                <div class="dice">
+                <div id="dice">
                     <img src="../assets/img/icon-dice.svg" alt="Dice" srcset="">
                 </div>
             </div>
+        </article>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Your Name Here</a>.
         </div>
-    </header>
+    </main>
 
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+    <!-- Less CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+    <!-- Less CSS -->
 
-        <!-- Less CSS -->
-        <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
-        <!-- Less CSS -->
+    <!-- Advice Slip JSON API -->
+    <script src="https://api.adviceslip.com/advice"></script>
+    <!-- Advice Slip JSON API -->
+
+    <!-- Advice -->
+    <script src="../js/advice.js"></script>
+
 </body>
 
 </html>
