@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app solution
+# Frontend Mentor - Advice generator app solution #2
 
 Esta é uma solução para o [Desafio do aplicativo gerador de conselhos no Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
@@ -42,14 +42,13 @@ Mobile 375
 
 ### Conhecimentos Adquiridos
 
-Aproveitei o projeto para colocar em prática a utilização de ramificação do Github, pensei que era algo muito complexo, mas, estava totalmente enganado. Fiz os commit de forma mais descritiva e informatica de todas as alterações que foi executada, para tornar isso um hábito.
+Segundo desafio do Frontend Mentor, nesse foi necessário a utilização de JS para a aplicação de uma API, nunca havia feito nada nesse estilo e meu conhecimento sobre JS é bem intermediário, no entanto através de pesquisa eu consegui executar a aplicação da API e depois de horas lutando contra problemas que surgiram e falta de conhecimento, me senti bastante orgulhoso depois que consegui fazer funcionar.
 
-Através desse projeto eu adquirir um conhecimento melhor sobre Flexbox e finalmente vi em prática o quão incrível é esse modelo de layout, tornando mais fácil ter seu site responsivo se utilizado da maneira correta.
+Como uma forma de desafiar a mim mesmo eu decidi usar a LessCSS para personalização de style do desafio e achei muito interessante, não me aprofundei tanto, mas pretendo usar bastante em projetos futuros, acredito que o código fica mais clean com LessCSS
 
 ### Planos de desenvolvimento
 
-Pretendo desafiar a mim mesmo em relação a Flexbox, acredito que eu ainda tenha muito o que aprender sobre. Como também pretendo começar com inclementação de JavaScript e particiar de mais desafios, pelo menos iniciar outro projeto sempre que finalizar algum.
-Acho que preciso entender um pouco mais sobre Git e Github, certos momentos me senti perdido em determinados assuntos.
+Pretendo desafiar a mim mesmo em relação a LessCSS, API e JS, acredito que eu ainda tenha muito o que aprender sobre. Além de continuar firme em fazer desafios todos os dias.
 
 ### Recursos úteis
 
