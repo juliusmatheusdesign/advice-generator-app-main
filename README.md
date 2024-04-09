@@ -28,7 +28,7 @@ Mobile 375
 
 ### Links
 
-- URL do site ao vivo: [Github pages](https://coldteus.github.io/advice-generator-app-main/)
+- URL do site ao vivo: [Github pages](https://juliusmatheusdesign.github.io/advice-generator-app-main/)
 
 ## Processo
 
